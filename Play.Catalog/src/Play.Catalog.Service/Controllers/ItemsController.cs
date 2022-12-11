@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Play.Catalog.Dtos;
 
-namespace Play.Catalog.Servie.Contollers
+namespace Play.Catalog.Service.Contollers
 {
     [ApiController]
     [Route("items")]
