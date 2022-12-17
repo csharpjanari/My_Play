@@ -33,12 +33,12 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 app.UseSwagger();
-app.UseSwaggerUI(options =>
+app.UseSwaggerUI();/*(options =>
 {
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "Play.Catalog");
     options.RoutePrefix = string.Empty;
 });
-
+*/
 
 app.UseHttpsRedirection();
 
