@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Play.Catalog.Dtos;
 using Play.Catalog.Service.Entities;
-using Play.Catalog.Service.Repositories;
+using Play.Common;
 
 namespace Play.Catalog.Service.Contollers
 {
